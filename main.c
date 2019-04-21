@@ -32,8 +32,14 @@ int main()
 
     const int min = min_element(arr, N_ELEMENTS(arr));
 
+<<<<<<< HEAD
     print_array(arr, N_ELEMENTS(arr));
     printf("Min element: %d\n", min);
+||||||| merged common ancestors
+    printf("Min element: %d\n", min);
+=======
+    printf("Minimum element: %d\n", min);
+>>>>>>> master
 
     return 0;
 }
